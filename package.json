@@ -1,0 +1,23 @@
+{
+  "name": "Jest-Testing-Practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tasks.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShadyShawkat/Jest-Testing-Practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShadyShawkat/Jest-Testing-Practice/issues"
+  },
+  "homepage": "https://github.com/ShadyShawkat/Jest-Testing-Practice#readme",
+  "devDependencies": {
+    "jest": "^27.4.3"
+  }
+}
