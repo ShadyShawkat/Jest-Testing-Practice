@@ -1,4 +1,4 @@
-const {stringLength, reverseString, Calculator} = require('./tasks.js');
+const {stringLength, reverseString, Calculator, capitalize} = require('./tasks.js');
 
 describe('stringLength tests', () => {
   test('valid string length', () => {
@@ -45,5 +45,12 @@ describe('Calculator tests', () => {
 
   test('dividing by zero', () => {
     expect(() => Calculator.divide(6, 0)).toThrow();
+  });
+});
+
+
+describe('capitalize tests', () => {
+  test('capitalizing a string', () => {
+    expect(capitalize('shady')).toBe('Shady');
   });
 });
